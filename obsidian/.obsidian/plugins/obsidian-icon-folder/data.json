@@ -1,0 +1,43 @@
+{
+  "settings": {
+    "migrated": 4,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "BoBxGlobeAlt",
+      "BoBxLibrary",
+      "🏗",
+      "BoBxsKeyboard",
+      "BoBxsBox"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": true,
+    "iconInFrontmatterEnabled": true,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": true,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "debugMode": false
+  },
+  "00 - Maps": "BoBxGlobe",
+  "01 - Projects": "BoBxsNetworkChart",
+  "99 - Meta": "🏗",
+  "02 - Resources": "BoBxBookBookmark",
+  "04 - Fleeting": "BoBxsPencil",
+  "05 - Daily": "BoBxCalendarEvent",
+  "06 - Archives": "BoBxsBox",
+  "03 - Library": "BoBxLibrary",
+  "00 - Maps/Linux map.canvas": "BoBxGlobeAlt"
+}

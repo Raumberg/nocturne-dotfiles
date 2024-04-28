@@ -1,0 +1,207 @@
+
+// __        __          _                 
+// \ \      / /_ _ _   _| |__   __ _ _ __  
+//  \ \ /\ / / _` | | | | '_ \ / _` | '__| 
+//   \ V  V / (_| | |_| | |_) | (_| | |    
+//    \_/\_/ \__,_|\__, |_.__/ \__,_|_|    
+//                 |___/                   
+//   
+// ----------------------------------------------------- 
+//
+
+{
+  // Generals
+
+    "layer": "top",   
+    "position": "top",
+    "mod": "dock",
+    "exclusive": true,
+    "passthrough": false,
+    "gtk-layer-shell": true,
+    "height": 25,
+
+  // Left Panel
+
+    "modules-left": [
+    "custom/arch",
+    "custom/filemanager",
+    "custom/wallpaper",
+    "custom/browser",
+    "hyprland/workspaces",
+    ],
+
+  // Center
+
+    "modules-center": ["mpris"],
+
+  // Right Panel
+
+    "modules-right": [
+    "custom/updates",
+    "clock",
+    "cpu",
+    "memory",
+    "network",
+    "pulseaudio",
+    "pulseaudio#microphone",
+    "custom/exit"
+    ],
+
+
+  // Modules
+
+    "hyprland/window": {
+        "format": "{}"
+    },
+
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "format": "{icon}",
+        "format-icons": {"1": "I", "2" : "II", "3": "III", "4": "IV","5": "V", "6": "VI", "7": "VII ","8": "VIII ","9": "IX", "10": "X"},
+        "all-outputs": true,
+        "on-click": "activate"
+    },
+    
+    "tray": {
+        "icon-size": 20,
+    },
+
+    "cpu" : {
+      "interval": 1,
+      "format": " |{usage}%"
+    },
+
+    "memory": {
+      "interval": 1,
+      "format": " |{}%"
+    },
+
+    "clock": {
+        "format": " {:%H:%M }",
+        "format-alt":" {:%a, %b %e }",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    },
+
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "tooltip": false,
+        "format-muted": " Muted",
+        "on-click": "pamixer -t",
+        "on-right-click": "exec pavucontrol",
+        "on-scroll-up": "pamixer -i 5",
+        "on-scroll-down": "pamixer -d 5",
+        "scroll-step": 5,
+        "format-icons": {
+            "headphone": " ",
+            "hands-free": " ",
+            "headset": " ",
+            "phone": " ",
+            "portable": " ",
+            "car": " ",
+            "default": [" ", " ", " "]
+        }
+    },
+
+    "pulseaudio#microphone": {
+        "format": "{format_source}",
+        "format-source": "󰍮 {volume}%",
+        "format-source-muted": "󰍮 Muted",
+        "on-click": "pamixer --default-source -t",
+        "on-scroll-up": "pamixer --default-source -i 5",
+        "on-scroll-down": "pamixer --default-source -d 5",
+        "scroll-step": 5
+    },
+    
+    "network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "format-wifi": " |{signalStrength}%",
+        "format-ethernet": "{ipaddr}|󱎔",
+        "tooltip-format": "{essid} - {ifname} via {gwaddr}|󱎔",
+        "format-linked": "{ifname} (No IP)|󱎔",
+        "format-disconnected": "Disconnected|⚠",
+        "format-alt": "{ifname}:{essid} {ipaddr}/{cidr}"
+    },
+
+    "mpris": {
+      "title-len": 40,
+      "interval":1,
+      "album-len":0,
+      "max-len": 60,
+      "format": "{player_icon} {artist} // {title}",
+      "format-paused": "{status_icon} {artist} // {title}",
+      "player-icons": {
+        "default": " ",
+        "mpv": "🎵",
+        "spotify": " ",
+        "firefox": " ",
+      },
+      "status-icons": {
+        "paused": " "
+      },
+      "ignored-players": ["vlc"]
+    },
+     
+    "mpd": {
+      "format": "{stateIcon} {artist} - {title}",
+      "format-disconnected": "Disconnected ",
+      "format-stopped": "{stateIcon} {artist} - {title}",
+      "interval": 1,
+      "consume-icons": {
+        "on": " " // Icon shows only when "consume" is on
+      },
+      "repeat-icons": {
+        "on": " "
+      },
+      "single-icons": {
+        "on": " 1 "
+      },
+      "state-icons": {
+        "paused": "  ",
+        "playing": "  "
+      },
+      "tooltip-format": "MPD (connected)",
+      "tooltip-format-disconnected": "MPD (disconnected)"
+    },
+
+    "custom/arch": {
+      "format": "",
+      "on-click": "sleep 0.2; rofi -show drun -replace", 
+      "on-right-click": "btop" 
+    },
+
+    "custom/exit": {
+      "format": "󰒋",
+      "on-click": "wlogout",
+      "tooltip": false
+    },
+
+    "custom/filemanager": {
+      "format": "",
+      "on-click": "thunar"
+    },
+
+    "custom/updates": {
+      "format": "  {}",
+      "tooltip-format": "{}",
+      "escape": true,
+      "return-type": "json",
+      "exec": "~/dotfiles/scripts/updates.sh",
+      "restart-interval": 60,
+      "on-click": "alacritty --class dotfiles-floating -e ~/dotfiles/scripts/installupdates.sh",
+      "tooltip": false
+    },
+
+    "custom/wallpaper": {
+      "format": "",
+      "on-click": "~/dotfiles/hypr/scripts/wallpaper.sh select",
+      "on-right-click": "~/dotfiles/hypr/scripts/wallpaper.sh",
+      "tooltip": false
+    },
+
+    "custom/browser": {
+      "format": "",
+      "on-click": "firefox",
+      "tooltip": false
+    }
+
+}

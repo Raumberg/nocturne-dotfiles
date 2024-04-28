@@ -1,0 +1,22 @@
+{
+  "accentColor": "",
+  "interfaceFontFamily": "JetBrainsMono Nerd Font Mono",
+  "textFontFamily": "JetBrainsMono Nerd Font Mono",
+  "baseFontSize": 17,
+  "cssTheme": "Obsidianite",
+  "enabledCssSnippets": [
+    "retro-notebook-bg",
+    "Daily Note",
+    "Notebook Backgrounds",
+    "Runescape",
+    "Japanese Fonts",
+    "Japanese Font Support",
+    "Colored Sidebar Items",
+    "Minecraft",
+    "CyanVoxel's General Tweaks",
+    "Daily Note Themes"
+  ],
+  "monospaceFontFamily": "JetBrainsMono Nerd Font Mono",
+  "translucency": false,
+  "theme": "obsidian"
+}
