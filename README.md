@@ -61,9 +61,9 @@
 
 <!-- INSTALLATION -->
 ## :blue_book: Installation
-TODO: Custom installation script is not ready by this commit.
-Neovim is not the part of the .files! 
-It is recommended to install [NvChad](https://github.com/NvChad/NvChad) because of its perfect compatibility.
+**TODO: Custom installation script is not ready by this commit.**
+- Neovim is not the part of the .files! 
+- It is recommended to install [NvChad](https://github.com/NvChad/NvChad) because of its perfect compatibility.
 
 <!-- HOTKEYS -->
 ## 💻 Hotkeys
@@ -87,9 +87,9 @@ It is recommended to install [NvChad](https://github.com/NvChad/NvChad) because 
 See more hotkeys in `$HOME/.config/hypr/conf/`
 
 
-<!-- 👤::Autor -->
-* You can contact me with
-- [github](https://github.com/Raumberg/)
-- Discord / raumberg
-
-
+<!-- Autor -->
+## Author
+**You can contact me with:**
+- [GitHub](https://github.com/Raumberg/)
+- Discord: raumberg
+**Lets contribute to UNIX community together!**
