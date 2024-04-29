@@ -33,8 +33,6 @@
 ![gallery](screenshots/3.png)
 ![gallery](screenshots/4.png)
 ![gallery](screenshots/5.png)
-![gallery](screenshots/6.png)
-![gallery](screenshots/7.png)
 
 
 <!-- FEATURES -->
@@ -75,13 +73,16 @@ It is recommended to install [NvChad](https://github.com/NvChad/NvChad) because 
 * **Open browser** - `super + b`
 * **Switch workspace** - `super + 1..9`
 * **Move the window to another desktop** - `super + shift + 1/6`
+* **Switch to the previous/next workspace** - `super + ctrl + h` / `super + ctrl + l`
 * **Kill active window** - `super + q`
 * **Toggle window floating** - `super + t`
 * **Toggle window split** - `super + s`
 * **Resize window with mouse** - `super + rmb`
+* **Resize window with keyboard** - `super + shift + h/j/k/l`
+* **Toggle fullscreen of active window** - `super + f`
 * **Take a screenshot** - `super + printscreen`
 * **Cliphistory** - `super + v`
-* **Switch the window to floating mode** - `super + space`
+* **Keybindings** - `super + i`
 
 See more hotkeys in `$HOME/.config/hypr/conf/`
 
