@@ -1,0 +1,94 @@
+<h1 align="center"> Nocturne .files  </h1>
+
+<!-- BADGES -->
+</br>
+
+<p align="center">
+  <img src="https://img.shields.io/github/issues/Raumberg/nocturne-dotfiles?style=for-the-badge">
+  </br>
+  <img src="https://img.shields.io/github/languages/count/Raumberg/nocturne-dotfiles?style=for-the-badge">
+  <img src="https://img.shields.io/github/repo-size/Raumberg/nocturne-dotfiles?style=for-the-badge">
+  </br>
+</p>
+
+<!-- INFORMATION -->
+<h1 align="left"> :blue_book: About</h1> 
+
+</br>
+
+ - OS: [**`Arch Linux`**](https://archlinux.org/)
+ - WM: [**`Hyprland`**](https://github.com/hyprwm/Hyprland)
+ - Bar: [**`Waybar`**](https://github.com/Alexays/Waybar)
+ - Terminal: [**`Alacritty`**](https://github.com/alacritty/alacritty)
+ - App Launcher: [**`Rofi`**](https://github.com/davatorium/rofi)
+ - Notify Daemon: [**`Dunst`**](https://github.com/dunst-project/dunst)
+ - Shell: [**`(oh my) Zsh`**](https://github.com/zsh-users/zsh)
+
+</br>
+
+<!-- IMAGES -->
+## 🖼️ Gallery
+![gallery](screenshots/1.png)
+![gallery](screenshots/2.png)
+![gallery](screenshots/3.png)
+![gallery](screenshots/4.png)
+![gallery](screenshots/5.png)
+![gallery](screenshots/6.png)
+![gallery](screenshots/7.png)
+
+
+<!-- FEATURES -->
+## 🚀 Features
+* Fully built system with modern minimalistic styling
+* Support for custom implementations thanks to the smart organization of source files 
+* VIM-based system configuration of shortcuts (you can get rid of the mouse!) / shortcuts listed below
+* Custom configuration of Firefox
+* Awesome waybar configuration with color gradient and animations
+
+<table align="center">
+   <tr>
+      <th align="center">
+         <sup>:warning: WARNING :warning:</sup>
+      </th>
+   </tr>
+   <tr>
+      <td align="center">
+        CURRENT CONFIGURATION IS DESIGNED FOR TWO-MONITOR SYSTEM OF THE AUTHOR.
+        PLEASE, CONSIDER TUNING HYPR/MONITORS VARIABLES IN ORDER TO RUN THE SCREEN.
+        IF YOU FIND ERRORS IN THE SHELL OR CONFIGURATION OPTIONS,
+        PLEASE REPORT THE PROBLEM IN THE ISSUES SECTION.
+   </tr>
+   </table>
+
+
+<!-- INSTALLATION -->
+## :blue_book: Installation
+TODO: Custom installation script is not ready by this commit.
+Neovim is not the part of the .files! 
+It is recommended to install [NvChad](https://github.com/NvChad/NvChad) because of its perfect compatibility.
+
+<!-- HOTKEYS -->
+## 💻 Hotkeys
+* **VIM-based navigation** - `super + h`, `super + j`, `super + k`, `super + l` :: left/down/up/right windows
+* **Open the terminal** - `super + w`
+* **Open Ranger** - `super + e`
+* **Open browser** - `super + b`
+* **Switch workspace** - `super + 1..9`
+* **Move the window to another desktop** - `super + shift + 1/6`
+* **Kill active window** - `super + q`
+* **Toggle window floating** - `super + t`
+* **Toggle window split** - `super + s`
+* **Resize window with mouse** - `super + rmb`
+* **Take a screenshot** - `super + printscreen`
+* **Cliphistory** - `super + v`
+* **Switch the window to floating mode** - `super + space`
+
+See more hotkeys in `$HOME/.config/hypr/conf/`
+
+
+<!-- 👤::Autor -->
+* You can contact me with
+- [github](https://github.com/Raumberg/)
+- Discord / raumberg
+
+
