@@ -64,6 +64,7 @@
 **TODO: Custom installation script is not ready by this commit.**
 - Neovim is not the part of the .files! 
 - It is recommended to install [NvChad](https://github.com/NvChad/NvChad) because of its perfect compatibility.
+- To use .zsh theme you also need to install [p10k.zsh](https://github.com/romkatv/powerlevel10k)
 
 <!-- HOTKEYS -->
 ## 💻 Hotkeys
@@ -92,4 +93,4 @@ See more hotkeys in `$HOME/.config/hypr/conf/`
 **You can contact me with:**
 - [GitHub](https://github.com/Raumberg/)
 - Discord: raumberg
-**Lets contribute to UNIX community together!**
+- **Lets contribute to UNIX community together!**
