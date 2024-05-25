@@ -11,6 +11,7 @@ HISTSIZE=1000
 SAVEHIST=1000
 
 export PATH="$PATH:$HOME/.cargo/bin"
+export PATH="$PATH:$HOME/.local/share/nvim/mason/bin/"
 
 ZSH=/usr/share/oh-my-zsh/
 
@@ -184,3 +185,5 @@ alias cat="bat"
 # ---- Eza (better ls) -----
 
 alias lst="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
+
+export PATH=$PATH:/home/rmbrg/.spicetify
