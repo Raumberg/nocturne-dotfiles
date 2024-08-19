@@ -28,6 +28,7 @@ alias ts='~/dotfiles/scripts/snapshot.sh'
 alias rw='~/dotfiles/waybar/reload.sh'
 alias dot="cd ~/dotfiles"
 alias cleanup='~/dotfiles/scripts/cleanup.sh'
+alias math='qalc'
 
 export DEFAULT_USER='rmbrg'
 export TERM="xterm-256color"
