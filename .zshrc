@@ -188,3 +188,10 @@ alias cat="bat"
 alias lst="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
 
 export PATH=$PATH:/home/rmbrg/.spicetify
+
+# bun completions
+[ -s "/home/rmbrg/.bun/_bun" ] && source "/home/rmbrg/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
