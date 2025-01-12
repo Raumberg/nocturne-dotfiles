@@ -61,7 +61,15 @@
 
 <!-- INSTALLATION -->
 ## :blue_book: Installation
-**TODO: Custom installation script is not ready by this commit.**
+- All necessary scripts are provided in repo!  
+```bash
+# Makefile utilizes install and deploy scripts, all the necessary info is in MANIFEST and PACKAGES
+make all && make clean
+# Or do it manually:
+chmod +x deploy.sh install.sh
+./install.sh
+./deploy.sh 
+```
 - Neovim is not the part of the .files! 
 - It is recommended to install [NvChad](https://github.com/NvChad/NvChad) because of its perfect compatibility.
 - To use .zsh theme you also need to install [p10k.zsh](https://github.com/romkatv/powerlevel10k)

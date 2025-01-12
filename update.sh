@@ -9,4 +9,5 @@
 clear
 sleep 1
 figlet "Update"
-# UPDATE SCRIPT
+
+paru -Qe | awk '{print $1}' > PACKAGES
